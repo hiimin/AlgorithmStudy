@@ -36,8 +36,8 @@ public class Algorism1 {
 			}
 		}
 		
-		for(int i = 0;i<arrM_index;i++)
-			System.out.println(arrM[i]);
+		/*for(int i = 0;i<arrM_index;i++)
+			System.out.println(arrM[i]);*/
 		
 		while(true) {
 			Scanner input = new Scanner(System.in);
@@ -45,7 +45,6 @@ public class Algorism1 {
 			if(I==-1)	//-1값이 입력되면 종료
 				break;
 			J = input.nextInt();
-			input.close();
 			
 			int minNum;
 			int IgroupIndex;
