@@ -33,10 +33,10 @@ public class Algorithm3_1 {
 	}
 	
 	public static int findMazePath(int x,int y,int maze[][],int n, int k, int count) {
-		if(x==n-1&&y==n-1)
-			return 1;
 		if(count>k||x>=n||y>=n||x<0||y<0||maze[x][y]!=PATHWAY_COLOUR)	//길이 아닐 경우
 			return 0;
+		else if(x==n-1&&y==n-1)
+			return 1;
 		else {
 			maze[x][y] = PATH_COLOUR;
 			int north =  findMazePath(x-1,y,maze,n,k,count+1);
