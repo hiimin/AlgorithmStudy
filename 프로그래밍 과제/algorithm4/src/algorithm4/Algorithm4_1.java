@@ -3,19 +3,373 @@ package algorithm4;
 import java.util.Random;
 
 public class Algorithm4_1 {
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int data[] = {9,3,6,7,1,2,4,5,8};
-		for(int i = 0;i<data.length;i++)
-			System.out.print(data[i]);
+		int Reverse1000[] = new int[1000];
+		int Reverse10000[] = new int[10000];
+		int Reverse100000[] = new int[100000];
+		int Random1000[] = new int[1000];
+		int Random10000[] = new int[10000];
+		int Random100000[] = new int[100000];
 		
+		int Reverse1000_copy[] = new int[1000];
+		int Reverse10000_copy[] = new int[10000];
+		int Reverse100000_copy[] = new int[100000];
+		int Random1000_copy[] = new int[1000];
+		int Random10000_copy[] = new int[10000];
+		int Random100000_copy[] = new int[100000];
+		
+		for(int i = 0;i<1000;i++) {
+			Reverse1000_copy[i] = Reverse1000[i] = 999-i;
+		}
+		for(int i = 0;i<10000;i++) {
+			Reverse10000_copy[i] = Reverse10000[i] = 9999-i;
+		}
+		for(int i = 0;i<100000;i++) {
+			Reverse100000_copy[i] = Reverse100000[i] = 99999-i;
+		}
+		
+		Random rand = new Random();
+		for(int i = 0;i<1000;i++) {
+			Random1000_copy[i] = Random1000[i] = rand.nextInt(1000);
+		}
+		for(int i = 0;i<10000;i++) {
+			Random10000_copy[i] = Random10000[i] = rand.nextInt(10000);
+		}
+		for(int i = 0;i<100000;i++) {
+			Random100000_copy[i] = Random100000[i] = rand.nextInt(100000);
+		}
+		
+		//1행 - Bubble sort 실행 시간
+		long startTime = System.currentTimeMillis();
+		bubbleSort(Random1000_copy);
+		long endTime = System.currentTimeMillis();
+		long time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		bubbleSort(Reverse1000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		bubbleSort(Random10000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		bubbleSort(Reverse10000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		bubbleSort(Random100000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		bubbleSort(Reverse100000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
 		System.out.println("");
-		//insertionSort(data);
-		quickSortRand(data, 0, 8);
-		for(int i = 0;i<data.length;i++)
-			System.out.print(data[i]);
 		
+		//배열 초기화
+		System.arraycopy(Random1000, 0, Random1000_copy, 0, Random1000.length);
+		System.arraycopy(Random10000, 0, Random10000_copy, 0, Random10000.length);
+		System.arraycopy(Random100000, 0, Random100000_copy, 0, Random100000.length);
+		System.arraycopy(Reverse1000, 0, Reverse1000_copy, 0, Reverse1000.length);
+		System.arraycopy(Reverse10000, 0, Reverse10000_copy, 0, Reverse10000.length);
+		System.arraycopy(Reverse100000, 0, Reverse100000_copy, 0, Reverse100000.length);
+		
+		
+		//2행 - Selection sort 실행 시간
+		startTime = System.currentTimeMillis();
+		selectionSort(Random1000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		selectionSort(Reverse1000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		selectionSort(Random10000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		selectionSort(Reverse10000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		selectionSort(Random100000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		selectionSort(Reverse100000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		System.out.println("");
+		
+		//배열 초기화
+		System.arraycopy(Random1000, 0, Random1000_copy, 0, Random1000.length);
+		System.arraycopy(Random10000, 0, Random10000_copy, 0, Random10000.length);
+		System.arraycopy(Random100000, 0, Random100000_copy, 0, Random100000.length);
+		System.arraycopy(Reverse1000, 0, Reverse1000_copy, 0, Reverse1000.length);
+		System.arraycopy(Reverse10000, 0, Reverse10000_copy, 0, Reverse10000.length);
+		System.arraycopy(Reverse100000, 0, Reverse100000_copy, 0, Reverse100000.length);
+		
+		
+		//3행
+		startTime = System.currentTimeMillis();
+		insertionSort(Random1000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		insertionSort(Reverse1000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		insertionSort(Random10000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		insertionSort(Reverse10000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		insertionSort(Random100000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		insertionSort(Reverse100000_copy);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		System.out.println("");
+		
+		//배열 초기화
+		System.arraycopy(Random1000, 0, Random1000_copy, 0, Random1000.length);
+		System.arraycopy(Random10000, 0, Random10000_copy, 0, Random10000.length);
+		System.arraycopy(Random100000, 0, Random100000_copy, 0, Random100000.length);
+		System.arraycopy(Reverse1000, 0, Reverse1000_copy, 0, Reverse1000.length);
+		System.arraycopy(Reverse10000, 0, Reverse10000_copy, 0, Reverse10000.length);
+		System.arraycopy(Reverse100000, 0, Reverse100000_copy, 0, Reverse100000.length);
+		
+		
+		//4행
+		startTime = System.currentTimeMillis();
+		mergeSort(Random1000_copy,0,999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		mergeSort(Reverse1000_copy,0,999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		mergeSort(Random10000_copy,0,9999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		mergeSort(Reverse10000_copy,0,9999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		mergeSort(Random100000_copy,0,99999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		mergeSort(Reverse100000_copy,0,99999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		System.out.println("");
+		
+		//배열 초기화
+		System.arraycopy(Random1000, 0, Random1000_copy, 0, Random1000.length);
+		System.arraycopy(Random10000, 0, Random10000_copy, 0, Random10000.length);
+		System.arraycopy(Random100000, 0, Random100000_copy, 0, Random100000.length);
+		System.arraycopy(Reverse1000, 0, Reverse1000_copy, 0, Reverse1000.length);
+		System.arraycopy(Reverse10000, 0, Reverse10000_copy, 0, Reverse10000.length);
+		System.arraycopy(Reverse100000, 0, Reverse100000_copy, 0, Reverse100000.length);
+		
+		
+		
+		//5행
+		startTime = System.currentTimeMillis();
+		quickSort(Random1000_copy,0,999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSort(Reverse1000_copy,0,999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSort(Random10000_copy,0,9999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSort(Reverse10000_copy,0,9999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSort(Random100000_copy,0,99999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		//error....
+		/*startTime = System.currentTimeMillis();
+		quickSort(Reverse100000_copy,0,99999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+" ");*/
+		System.out.println("");
+		
+		//배열 초기화
+		System.arraycopy(Random1000, 0, Random1000_copy, 0, Random1000.length);
+		System.arraycopy(Random10000, 0, Random10000_copy, 0, Random10000.length);
+		System.arraycopy(Random100000, 0, Random100000_copy, 0, Random100000.length);
+		System.arraycopy(Reverse1000, 0, Reverse1000_copy, 0, Reverse1000.length);
+		System.arraycopy(Reverse10000, 0, Reverse10000_copy, 0, Reverse10000.length);
+		System.arraycopy(Reverse100000, 0, Reverse100000_copy, 0, Reverse100000.length);
+		
+		
+		//6행
+		startTime = System.currentTimeMillis();
+		quickSortMiddle(Random1000_copy,0,999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSortMiddle(Reverse1000_copy,0,999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSortMiddle(Random10000_copy,0,9999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSortMiddle(Reverse10000_copy,0,9999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSortMiddle(Random100000_copy,0,99999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSortMiddle(Reverse100000_copy,0,99999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		System.out.println("");
+		
+		//배열 초기화
+		System.arraycopy(Random1000, 0, Random1000_copy, 0, Random1000.length);
+		System.arraycopy(Random10000, 0, Random10000_copy, 0, Random10000.length);
+		System.arraycopy(Random100000, 0, Random100000_copy, 0, Random100000.length);
+		System.arraycopy(Reverse1000, 0, Reverse1000_copy, 0, Reverse1000.length);
+		System.arraycopy(Reverse10000, 0, Reverse10000_copy, 0, Reverse10000.length);
+		System.arraycopy(Reverse100000, 0, Reverse100000_copy, 0, Reverse100000.length);
+		
+		
+		//7행
+		startTime = System.currentTimeMillis();
+		quickSortRand(Random1000_copy,0,999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSortRand(Reverse1000_copy,0,999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSortRand(Random10000_copy,0,9999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSortRand(Reverse10000_copy,0,9999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSortRand(Random100000_copy,0,99999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		
+		startTime = System.currentTimeMillis();
+		quickSortRand(Reverse100000_copy,0,99999);
+		endTime = System.currentTimeMillis();
+		time = endTime-startTime;
+		System.out.print(time/1000.0+"	");
+		System.out.println("");
+		
+		//배열 초기화
+		System.arraycopy(Random1000, 0, Random1000_copy, 0, Random1000.length);
+		System.arraycopy(Random10000, 0, Random10000_copy, 0, Random10000.length);
+		System.arraycopy(Random100000, 0, Random100000_copy, 0, Random100000.length);
+		System.arraycopy(Reverse1000, 0, Reverse1000_copy, 0, Reverse1000.length);
+		System.arraycopy(Reverse10000, 0, Reverse10000_copy, 0, Reverse10000.length);
+		System.arraycopy(Reverse100000, 0, Reverse100000_copy, 0, Reverse100000.length);
 	}
 	
 	static void bubbleSort(int data[]) {
