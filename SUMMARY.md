@@ -11,3 +11,7 @@
 * [heap sort](sorting/heap-sort.md)
 * [counting sort](sorting/counting-sort.md)
 
+## useful
+
+* [fast io](useful/fast-io.md)
+
