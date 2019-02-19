@@ -16,3 +16,7 @@
 * [fast io](useful/fast-io.md)
 * [is prime](useful/is-prime.md)
 
+## baekjoon
+
+* [1929\(소수 구하기-에라토스테네스의 체\)](baekjoon/1929.md)
+
