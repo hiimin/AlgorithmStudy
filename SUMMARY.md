@@ -14,4 +14,5 @@
 ## useful
 
 * [fast io](useful/fast-io.md)
+* [is prime](useful/is-prime.md)
 
