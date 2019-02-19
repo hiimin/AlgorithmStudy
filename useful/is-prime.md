@@ -1,5 +1,7 @@
 # is prime
 
+### CODE
+
 ```java
 public static boolean isPrime(int num) {
 		if(num==1) {
@@ -17,4 +19,8 @@ public static boolean isPrime(int num) {
 		return isPrime;
 	}
 ```
+
+### COMMENT
+
+위의 알고리즘은 시간복잡도가 sqrt\(n\)이기때문에 웬만한건 다 풀림
 
