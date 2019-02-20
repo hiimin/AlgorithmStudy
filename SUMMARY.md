@@ -14,6 +14,8 @@
 ## stack
 
 * [stack](stack/stack.md)
+* [linked list](stack/linked-list.md)
+* [array](stack/array.md)
 
 ## useful
 
