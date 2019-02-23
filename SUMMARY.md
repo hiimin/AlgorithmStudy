@@ -17,6 +17,11 @@
 * [linked list](stack/linked-list.md)
 * [array](stack/array.md)
 
+## queue
+
+* [queue](queue/queue.md)
+* [linked list](queue/linked-list.md)
+
 ## useful
 
 * [fast io](useful/fast-io.md)
