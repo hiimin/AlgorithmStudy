@@ -4,7 +4,7 @@
 * Sorts in place - 추가 배열 불필요
 * 이진 힙\(binary heap\) 자료구조를 사용
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 ![](../.gitbook/assets/image%20%288%29.png)
 
@@ -34,13 +34,13 @@
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 ![](../.gitbook/assets/image%20%2825%29.png)
 
 ![](../.gitbook/assets/image%20%2827%29.png)
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 ![](../.gitbook/assets/image.png)
 
