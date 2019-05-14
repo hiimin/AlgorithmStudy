@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Algorithm study](README.md)
+* [Jeongmin's IT book](README.md)
 
 ## Sorting
 
