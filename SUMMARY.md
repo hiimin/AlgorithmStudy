@@ -57,4 +57,5 @@
 * [19.02.26](capstone-design/19.02.26.md)
 * [19.03.20](capstone-design/19.03.20.md)
 * [19.04.02](capstone-design/19.04.02.md)
+* [19.05.16](capstone-design/19.05.16.md)
 
