@@ -52,6 +52,7 @@
 
 * [JSP, MVC, Servlet](web/jsp-mvc-servlet.md)
 * [SocketIO](web/socketio.md)
+* [JS](web/js.md)
 
 ## Capstone Design
 
