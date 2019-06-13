@@ -6,7 +6,7 @@
 
 2. 계정 생성 및 권한 부여
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 
 

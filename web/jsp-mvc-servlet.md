@@ -7,7 +7,7 @@
 
 ### MVC 구조의 적
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 * VIEW : 사용자에게 보여주는 화면
 * Model : 실제 비즈니스 로직
