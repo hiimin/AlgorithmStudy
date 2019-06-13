@@ -71,3 +71,7 @@
 * [19.04.02](capstone-design/19.04.02.md)
 * [19.05.16](capstone-design/19.05.16.md)
 
+## INTERNET DB
+
+* [DB 계정 생성](internet-db/db.md)
+
