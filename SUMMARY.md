@@ -74,6 +74,7 @@
 ## INTERNET DB
 
 * [DB 계정 생성](internet-db/db.md)
+* [dao, dto](internet-db/dao-dto.md)
 
 ## git
 
