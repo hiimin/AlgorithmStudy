@@ -36,6 +36,10 @@
 * [fast io](useful/fast-io.md)
 * [is prime](useful/is-prime.md)
 
+## SW Expert Academy
+
+* [1767. \[SW Test 샘플문제\] 프로세서 연결하기](sw-expert-academy/1767.-sw-test.md)
+
 ## baekjoon
 
 * [1929\(소수 구하기-에라토스테네스의 체\)](baekjoon/1929.md)
