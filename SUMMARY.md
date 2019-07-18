@@ -41,6 +41,7 @@
 * [1767. \[SW Test 샘플문제\] 프로세서 연결하기](sw-expert-academy/1767.-sw-test.md)
 * [7829. 보물왕 태혁](sw-expert-academy/7829..md)
 * [7810. 승현이의 질문](sw-expert-academy/7810..md)
+* [7699. 수지의 수지 맞는 여행](sw-expert-academy/7699..md)
 
 ## baekjoon
 
