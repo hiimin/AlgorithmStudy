@@ -75,6 +75,7 @@
 * [SocketIO](web/socketio.md)
 * [JS](web/js.md)
 * [SOLUTION](web/solution.md)
+* [UI / API](web/ui-api.md)
 
 ## Capstone Design
 
