@@ -40,6 +40,7 @@
 
 * [11068\(회문인 수\)](acm-icpc/11068.md)
 * [11066\(파일 합치기\)](acm-icpc/11066.md)
+* [13325\(이진 트리\)](acm-icpc/13325.md)
 
 ## SW Expert Academy
 
