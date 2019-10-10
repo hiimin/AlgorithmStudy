@@ -105,3 +105,7 @@
 
 * [Socket](network-programming/socket.md)
 
+## SAMSUNG A
+
+* [17070\(파이프 옮기기1\)](samsung-a/17070-1.md)
+
