@@ -50,6 +50,10 @@
 * [7810. 승현이의 질문](sw-expert-academy/7810..md)
 * [7699. 수지의 수지 맞는 여행](sw-expert-academy/7699..md)
 
+## SAMSUNG A
+
+* [17070\(파이프 옮기기1\)](samsung-a/17070-1.md)
+
 ## baekjoon
 
 * [1929\(소수 구하기-에라토스테네스의 체\)](baekjoon/1929.md)
@@ -104,8 +108,4 @@
 ## network programming
 
 * [Socket](network-programming/socket.md)
-
-## SAMSUNG A
-
-* [17070\(파이프 옮기기1\)](samsung-a/17070-1.md)
 
