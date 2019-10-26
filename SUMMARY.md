@@ -8,6 +8,7 @@
 * [bubble sort](sorting/bubble-sort.md)
 * [insertion sort](sorting/insertion-sort.md)
 * [merge sort](sorting/merge-sort.md)
+* [quick sort](sorting/quick-sort.md)
 * [heap sort](sorting/heap-sort.md)
 * [counting sort](sorting/counting-sort.md)
 * [topological sort](sorting/topological-sort.md)
