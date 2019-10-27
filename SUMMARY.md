@@ -118,3 +118,7 @@
 
 * [Socket](network-programming/socket.md)
 
+## DESIGN PATTERN
+
+* [Singleton pattern](design-pattern/singleton-pattern.md)
+
