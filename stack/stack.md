@@ -12,3 +12,45 @@
 * peek : 스택 top의 원소를 제거하지 않고 반환
 * empty : 스택이 비었는지 검사
 
+## CODE
+
+```java
+public class MyStack<T> {
+	private static class StackNode<T>{
+		private T data;
+		private StackNode next;
+		
+		public StackNode(T data) {
+			this.data = data;
+		}
+	}
+	
+	private StackNode top;
+	
+	public <T> T pop() {
+		if(top == null)
+			return null;
+		else {
+			T pop = (T) top.data;
+			top = top.next;
+			
+			return pop;
+		}
+	}
+	
+	public void push(T item) {
+		StackNode<T> node = new StackNode<T>(item);
+		node.next = top;
+		top = node;
+	}
+	
+	public <T> T peek() {
+		return (T) top.data;
+	}
+	
+	public boolean isEmpty() {
+		return top == null;
+	}
+}
+```
+
