@@ -121,4 +121,9 @@
 ## DESIGN PATTERN
 
 * [Singleton pattern](design-pattern/singleton-pattern.md)
+* [State pattern](design-pattern/state-pattern.md)
+
+## MANUAL
+
+* [Google Cloud Vision API](manual/google-cloud-vision-api.md)
 
