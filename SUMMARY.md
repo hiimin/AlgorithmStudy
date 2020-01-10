@@ -28,6 +28,7 @@
 
 * [Bellman-Ford](shortest-path/bellman-ford.md)
 * [Floyd Warshall](shortest-path/floyd-warshall.md)
+* [Dijkstra](shortest-path/dijkstra.md)
 
 ## DYNAMIC PROGRAMMING
 

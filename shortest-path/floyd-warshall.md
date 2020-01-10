@@ -95,55 +95,6 @@ public class Main {
 }
 ```
 
-### 1613 - 역사
-
-```java
-import java.util.Scanner;
-
-public class Main {
-	static int map[][];
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner scan = new Scanner(System.in);
-		int n = scan.nextInt();
-		int k = scan.nextInt();
-
-		map = new int[n][n];
-		for (int i = 0; i < k; i++) {
-			int start = scan.nextInt() - 1;
-			int end = scan.nextInt() - 1;
-
-			map[start][end] = 1;
-		}
-
-		for (int mid = 0; mid < n; mid++) {
-			for (int start = 0; start < n; start++) {
-				for (int end = 0; end < n; end++) {
-					if (map[start][mid] == 0 || map[mid][end] == 0 || map[start][end] != 0)
-						continue;
-
-					map[start][end] = 1;
-				}
-			}
-		}
-
-		int s = scan.nextInt();
-		for (int i = 0; i < s; i++) {
-			int start = scan.nextInt() - 1;
-			int end = scan.nextInt() - 1;
-
-			if (map[start][end] == 1)
-				System.out.println(-1);
-			else if (map[end][start] == 1)
-				System.out.println(1);
-			else
-				System.out.println(0);
-		}
-	}
-}
-```
-
 ## 시간복잡도
 
 3중 for문으로 O\(N^3\)
