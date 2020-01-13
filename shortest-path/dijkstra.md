@@ -87,7 +87,7 @@ public class Main {
 }
 ```
 
-### - Priority Queue 사용
+### - [Priority Queue](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LyTKIgADT9yLcZ0qF1i/queue/priority-queue) 사용
 
 ```java
 import java.util.ArrayList;
