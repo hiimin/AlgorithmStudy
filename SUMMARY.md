@@ -23,6 +23,7 @@
 
 * [queue](queue/queue.md)
 * [linked list](queue/linked-list.md)
+* [priority queue](queue/priority-queue.md)
 
 ## SHORTEST PATH
 

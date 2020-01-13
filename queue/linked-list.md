@@ -1,6 +1,6 @@
 # linked list
 
-```text
+```java
 package baekjoon;
 
 import java.util.Scanner;

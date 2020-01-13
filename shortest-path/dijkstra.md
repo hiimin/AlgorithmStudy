@@ -87,9 +87,96 @@ public class Main {
 }
 ```
 
-### - Queue 사용
+### - Priority Queue 사용
 
 ```java
+import java.util.ArrayList;
+import java.util.PriorityQueue;
+import java.util.Scanner;
 
+class Edge implements Comparable<Edge> {
+	int dest; // 목적지
+	int weight; // 가중치
+
+	Edge(int dest, int weight) {
+		this.dest = dest;
+		this.weight = weight;
+	}
+
+	@Override
+	public int compareTo(Edge o) {
+		// TODO Auto-generated method stub
+		return this.weight - o.weight;
+	}
+}
+
+public class Main {
+	static final int INF = Integer.MAX_VALUE;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+
+		int v; // 정점 개수
+		int e; // 간선 개수
+		int k; // 시작 정점
+
+		v = scan.nextInt();
+		e = scan.nextInt();
+		k = scan.nextInt() - 1;
+
+		ArrayList<Edge> map[] = new ArrayList[v];
+		for (int i = 0; i < v; i++)
+			map[i] = new ArrayList<Edge>();
+
+		boolean check[] = new boolean[v];
+		int distance[] = new int[v];
+
+		for (int i = 0; i < v; i++)
+			distance[i] = INF; // 최단거리 무한대로 초기화
+
+		distance[k] = 0;
+
+		for (int i = 0; i < e; i++) {
+			int start = scan.nextInt() - 1;
+			int end = scan.nextInt() - 1;
+			int w = scan.nextInt();
+
+			Edge edge = new Edge(end, w);
+			map[start].add(edge);
+		}
+
+		PriorityQueue<Edge> pq = new PriorityQueue<Edge>();
+		
+		pq.add(new Edge(k, 0));
+		while (!pq.isEmpty()) {
+			Edge edge = pq.poll();
+			check[edge.dest] = true;
+
+			for (int i = 0; i < map[edge.dest].size(); i++) {
+				int end = map[edge.dest].get(i).dest;
+				int weight = map[edge.dest].get(i).weight;
+				if (distance[end] == INF || distance[edge.dest] + weight < distance[end]) {
+					distance[end] = distance[edge.dest] + weight;
+
+					pq.add(new Edge(end, distance[end]));
+				}
+			}
+		}
+
+		for (int i = 0; i < v; i++) {
+			if (distance[i] == INF)
+				System.out.println("INF");
+			else
+				System.out.printf("%d\n", distance[i]);
+		}
+	}
+}
 ```
+
+## Reference
+
+{% embed url="https://hsp1116.tistory.com/42" %}
+
+
 
