@@ -95,6 +95,118 @@ public class Main {
 }
 ```
 
+### 1613 - 역사
+
+```java
+import java.util.Scanner;
+
+public class Main {
+	static int map[][];
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		int k = scan.nextInt();
+
+		map = new int[n][n];
+		for (int i = 0; i < k; i++) {
+			int start = scan.nextInt() - 1;
+			int end = scan.nextInt() - 1;
+
+			map[start][end] = 1;
+		}
+
+		for (int mid = 0; mid < n; mid++) {
+			for (int start = 0; start < n; start++) {
+				for (int end = 0; end < n; end++) {
+					if (map[start][mid] == 0 || map[mid][end] == 0 || map[start][end] != 0)
+						continue;
+
+					map[start][end] = 1;
+				}
+			}
+		}
+
+		int s = scan.nextInt();
+		for (int i = 0; i < s; i++) {
+			int start = scan.nextInt() - 1;
+			int end = scan.nextInt() - 1;
+
+			if (map[start][end] == 1)
+				System.out.println(-1);
+			else if (map[end][start] == 1)
+				System.out.println(1);
+			else
+				System.out.println(0);
+		}
+	}
+}
+```
+
+### 1389 - 케빈 베이컨의 6단계 법칙
+
+```java
+import java.util.Scanner;
+
+public class Main {
+	static final int INF = Integer.MAX_VALUE;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+
+		int n = scan.nextInt();
+		int m = scan.nextInt();
+
+		int map[][] = new int[n][n];
+
+		for (int i = 0; i < m; i++) {
+			int start = scan.nextInt() - 1;
+			int end = scan.nextInt() - 1;
+
+			//양방향
+			map[start][end] = 1;
+			map[end][start] = 1;
+		}
+
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				if (i != j && map[i][j] == 0)
+					map[i][j] = INF;
+			}
+		}
+
+		for (int mid = 0; mid < n; mid++) {
+			for (int start = 0; start < n; start++) {
+				for (int end = 0; end < n; end++) {
+					if (map[start][mid] != INF && map[mid][end] != INF) {
+						if (map[start][end] > map[start][mid] + map[mid][end])
+							map[start][end] = map[start][mid] + map[mid][end];
+					}
+				}
+			}
+		}
+
+		int sumArray[] = new int[n];
+		for (int start = 0; start < n; start++) {
+			int sum = 0;
+			for (int end = 0; end < n; end++) {
+				sum += map[start][end];
+			}
+			sumArray[start] = sum;
+		}
+
+		int result = 0;
+		for (int i = 1; i < n; i++) {
+			result = sumArray[i] < sumArray[result] ? i : result;
+		}
+
+		System.out.println(result + 1);
+	}
+}
+```
+
 ## 시간복잡도
 
 3중 for문으로 O\(N^3\)
