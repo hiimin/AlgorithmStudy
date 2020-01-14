@@ -207,6 +207,62 @@ public class Main {
 }
 ```
 
+### 1238 - 파티
+
+```java
+import java.util.Scanner;
+
+public class Main {
+	static final int INF = Integer.MAX_VALUE;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+
+		int n = scan.nextInt();
+		int m = scan.nextInt();
+		int x = scan.nextInt() - 1;
+
+		int map[][] = new int[n][n];
+
+		for (int i = 0; i < m; i++) {
+			int start = scan.nextInt() - 1;
+			int end = scan.nextInt() - 1;
+			int weight = scan.nextInt();
+
+			map[start][end] = weight;
+		}
+
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				if (i != j && map[i][j] == 0)
+					map[i][j] = INF;
+			}
+		}
+
+		for (int mid = 0; mid < n; mid++) {
+			for (int start = 0; start < n; start++) {
+				for (int end = 0; end < n; end++) {
+					if (map[start][mid] != INF && map[mid][end] != INF) {
+						map[start][end] = map[start][end] > map[start][mid] + map[mid][end]
+								? map[start][mid] + map[mid][end]
+								: map[start][end];
+					}
+				}
+			}
+		}
+
+		int maxTime = -1;
+		for (int i = 0; i < n; i++) {
+			if (maxTime == -1 || maxTime < map[i][x] + map[x][i])
+				maxTime = map[i][x] + map[x][i];
+		}
+
+		System.out.println(maxTime);
+	}
+}
+```
+
 ## 시간복잡도
 
 3중 for문으로 O\(N^3\)
