@@ -174,6 +174,10 @@ public class Main {
 }
 ```
 
+### [- 1261\(알고스팟\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LybuKctn05i-C9i0XSY/baekjoon/1261)
+
+### [- 4485\(녹색 옷 입은 애가 젤다지?\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LybuKctn05i-C9i0XSY/baekjoon/4485)
+
 ## Reference
 
 {% embed url="https://hsp1116.tistory.com/42" %}
