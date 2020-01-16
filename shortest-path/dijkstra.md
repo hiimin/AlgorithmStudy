@@ -182,6 +182,8 @@ public class Main {
 
 ### [- 6593\(상범 빌딩\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LycIsjdZOjQRSHqto2d/baekjoon/6593)
 
+### [- 5719\(거의 최단 경로\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LyhUSikMKDgGO0QfxJm/baekjoon/5719)
+
 ## Reference
 
 {% embed url="https://hsp1116.tistory.com/42" %}
