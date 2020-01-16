@@ -184,6 +184,8 @@ public class Main {
 
 ### [- 5719\(거의 최단 경로\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LyhUSikMKDgGO0QfxJm/baekjoon/5719)
 
+### [- 11779\(최소비용 구하기 2\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LyhiTfeIDCBotZbyA0D/baekjoon/11779-2)
+
 ## Reference
 
 {% embed url="https://hsp1116.tistory.com/42" %}
