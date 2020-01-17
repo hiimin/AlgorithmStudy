@@ -65,6 +65,12 @@ public class Main {
 
 ### [- 9205\(맥주 마시면서 걸어가기\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-Lym5bLUoOm5aMRK8gnC/baekjoon/9205)
 
+### [- 1956\(운동\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LymT1L1561-8N1nS4CY/baekjoon/1956)
+
+### [- 2660\(회장뽑기\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LymT1L1561-8N1nS4CY/baekjoon/2660)
+
+### [- 1507\(궁금한 민호\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LymT1L1561-8N1nS4CY/baekjoon/1507)
+
 ## 시간복잡도
 
 3중 for문으로 O\(N^3\)

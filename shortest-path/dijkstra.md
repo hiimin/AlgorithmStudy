@@ -5,7 +5,7 @@
 
 ## CODE
 
-### - for으로만
+### - for으로만\(메모리 초과\)
 
 ```java
 import java.util.Scanner;
