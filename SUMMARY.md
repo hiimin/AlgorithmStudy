@@ -76,6 +76,7 @@
 * [12100\(2048 easy\)](samsung-a/12100-2048-easy.md)
 * [13458\(시험 감독\)](samsung-a/13458.md)
 * [15684\(사다리 조작\)](samsung-a/15684.md)
+* [16235\(나무 재테크\)](samsung-a/16235.md)
 
 ## baekjoon
 
