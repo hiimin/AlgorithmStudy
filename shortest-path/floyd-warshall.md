@@ -71,6 +71,8 @@ public class Main {
 
 ### [- 1507\(궁금한 민호\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LymT1L1561-8N1nS4CY/baekjoon/1507)
 
+### [- 11562\(백양로 브레이크\)       \*응용](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LzfacA05ahW2vz90G0Z/baekjoon/11562)
+
 ## 시간복잡도
 
 3중 for문으로 O\(N^3\)
