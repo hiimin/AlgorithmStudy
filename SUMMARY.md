@@ -57,6 +57,8 @@
 * [7829. 보물왕 태혁](sw-expert-academy/7829..md)
 * [7810. 승현이의 질문](sw-expert-academy/7810..md)
 * [7699. 수지의 수지 맞는 여행](sw-expert-academy/7699..md)
+* [9280. 진용이네 주차타워](sw-expert-academy/9280..md)
+* [8931. 제로](sw-expert-academy/8931..md)
 
 ## SAMSUNG A
 
@@ -123,6 +125,7 @@
 * [1956\(운동\)](baekjoon/1956.md)
 * [2660\(회장뽑기\)](baekjoon/2660.md)
 * [1507\(궁금한 민호\)](baekjoon/1507.md)
+* [10282\(해킹\)](baekjoon/10282.md)
 
 ## WEB
 
