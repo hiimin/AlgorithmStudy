@@ -33,7 +33,7 @@
 
 ## DYNAMIC PROGRAMMING
 
-* [계단오르기](dynamic-programming/undefined.md)
+* [2579\(계단오르기\)](dynamic-programming/undefined.md)
 
 ## useful
 
