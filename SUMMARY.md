@@ -40,6 +40,10 @@
 * [fast io](useful/fast-io.md)
 * [is prime](useful/is-prime.md)
 
+## RECURSION
+
+* [1914\(하노이 탑\)](recursion/1914.md)
+
 ## DFS & BFS <a id="dfs"></a>
 
 * [11403\(경로 찾기\)](dfs/11403.md)
@@ -196,12 +200,4 @@
 ## MANUAL
 
 * [Google Cloud Vision API](manual/google-cloud-vision-api.md)
-
-## BFS
-
-* [Untitled](bfs/untitled.md)
-
-## RECURSION
-
-* [1914\(하노이 탑\)](recursion/1914.md)
 

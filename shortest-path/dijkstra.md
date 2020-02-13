@@ -190,6 +190,8 @@ public class Main {
 
 ### [- 9205\(맥주 마시면서 걸어가기\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-Lym5bLUoOm5aMRK8gnC/baekjoon/9205)
 
+### [- 10282\(해킹\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-Lzf-Rz9LxnbOQpyohul/baekjoon/10282)
+
 ## Reference
 
 {% embed url="https://hsp1116.tistory.com/42" %}
