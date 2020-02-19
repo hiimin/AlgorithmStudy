@@ -86,6 +86,10 @@
 
 * [1094\(막대기\)](simulation/1094.md)
 * [2455\(지능형 기차\)](simulation/2455.md)
+* [1018\(체스판 다시 칠하기\)](simulation/1018.md)
+* [2164\(카드2\)](simulation/2164-2.md)
+* [1547\(공\)](simulation/1547.md)
+* [5397\(키로거\)](simulation/5397.md)
 
 ## ACM-ICPC
 
