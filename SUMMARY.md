@@ -90,6 +90,9 @@
 * [2164\(카드2\)](simulation/2164-2.md)
 * [1547\(공\)](simulation/1547.md)
 * [5397\(키로거\)](simulation/5397.md)
+* [2979\(트럭 주차\)](simulation/2979.md)
+* [1062\(가르침\)](simulation/1062.md)
+* [1022\(소용돌이 예쁘게 출력하기\)](simulation/1022.md)
 
 ## ACM-ICPC
 
