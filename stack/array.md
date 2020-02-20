@@ -4,7 +4,7 @@ description: stack을 배열로 구현
 
 # array
 
-```text
+```java
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;

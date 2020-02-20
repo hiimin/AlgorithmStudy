@@ -4,7 +4,7 @@ description: stack을 linked list로 구현
 
 # linked list
 
-```text
+```java
 package baekjoon;
 
 import java.util.Scanner;
