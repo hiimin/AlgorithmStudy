@@ -95,6 +95,8 @@
 * [1022\(소용돌이 예쁘게 출력하기\)](simulation/1022.md)
 * [1526\(가장 큰 금민수\)](simulation/1526.md)
 * [1592\(영식이와 친구들\)](simulation/1592.md)
+* [9517\(아이 러브 크로아티아\)](simulation/9517.md)
+* [1063\(킹\)](simulation/1063.md)
 
 ## ACM-ICPC
 
