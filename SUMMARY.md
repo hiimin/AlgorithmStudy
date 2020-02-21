@@ -34,6 +34,8 @@
 ## DYNAMIC PROGRAMMING
 
 * [2579\(계단오르기\)](dynamic-programming/undefined.md)
+* [9095\(1, 2, 3 더하기\)](dynamic-programming/9095-1-2-3.md)
+* [15988\(1, 2, 3 더하기 3\)](dynamic-programming/15988-1-2-3-3.md)
 
 ## RECURSION
 
@@ -97,6 +99,7 @@
 * [1592\(영식이와 친구들\)](simulation/1592.md)
 * [9517\(아이 러브 크로아티아\)](simulation/9517.md)
 * [1063\(킹\)](simulation/1063.md)
+* [1551\(수열의 변화\)](simulation/1551.md)
 
 ## ACM-ICPC
 
