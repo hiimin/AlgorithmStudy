@@ -38,6 +38,8 @@
 * [15988\(1, 2, 3 더하기 3\)](dynamic-programming/15988-1-2-3-3.md)
 * [11726\(2 x n 타일링\)](dynamic-programming/11726-2-x-n.md)
 * [2193\(이친수\)](dynamic-programming/2193.md)
+* [1912\(연속합\)](dynamic-programming/1912.md)
+* [11053\(가장 긴 증가하는 부분 수열\)](dynamic-programming/11053.md)
 
 ## RECURSION
 
