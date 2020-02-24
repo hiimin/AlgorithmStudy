@@ -36,6 +36,8 @@
 * [2579\(계단오르기\)](dynamic-programming/undefined.md)
 * [9095\(1, 2, 3 더하기\)](dynamic-programming/9095-1-2-3.md)
 * [15988\(1, 2, 3 더하기 3\)](dynamic-programming/15988-1-2-3-3.md)
+* [11726\(2 x n 타일링\)](dynamic-programming/11726-2-x-n.md)
+* [2193\(이친수\)](dynamic-programming/2193.md)
 
 ## RECURSION
 
