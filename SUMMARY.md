@@ -41,6 +41,8 @@
 * [1912\(연속합\)](dynamic-programming/1912.md)
 * [11053\(가장 긴 증가하는 부분 수열\)](dynamic-programming/11053.md)
 * [11052\(카드 구매하기\)](dynamic-programming/11052.md)
+* [9461\(파도반 수열\)](dynamic-programming/9461.md)
+* [1010\(다리 놓기\)](dynamic-programming/1010.md)
 
 ## RECURSION
 
