@@ -43,6 +43,9 @@
 * [11052\(카드 구매하기\)](dynamic-programming/11052.md)
 * [9461\(파도반 수열\)](dynamic-programming/9461.md)
 * [1010\(다리 놓기\)](dynamic-programming/1010.md)
+* [9465\(스티커\)](dynamic-programming/9465.md)
+* [11057\(오르막 수\)](dynamic-programming/11057.md)
+* [1699\(제곱수의 합\)](dynamic-programming/1699.md)
 
 ## RECURSION
 
