@@ -46,6 +46,8 @@
 * [9465\(스티커\)](dynamic-programming/9465.md)
 * [11057\(오르막 수\)](dynamic-programming/11057.md)
 * [1699\(제곱수의 합\)](dynamic-programming/1699.md)
+* [2167\(2차원 배열의 합\)](dynamic-programming/2167-2.md)
+* [2294\(동전 2\)](dynamic-programming/2294-2.md)
 
 ## RECURSION
 
