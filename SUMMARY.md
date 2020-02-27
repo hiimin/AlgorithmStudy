@@ -48,6 +48,8 @@
 * [1699\(제곱수의 합\)](dynamic-programming/1699.md)
 * [2167\(2차원 배열의 합\)](dynamic-programming/2167-2.md)
 * [2294\(동전 2\)](dynamic-programming/2294-2.md)
+* [11048\(이동하기\)](dynamic-programming/11048.md)
+* [1904\(01타일\)](dynamic-programming/1904-01.md)
 
 ## RECURSION
 
