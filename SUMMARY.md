@@ -50,6 +50,7 @@
 * [2294\(동전 2\)](dynamic-programming/2294-2.md)
 * [11048\(이동하기\)](dynamic-programming/11048.md)
 * [1904\(01타일\)](dynamic-programming/1904-01.md)
+* [1890\(점프\)](dynamic-programming/1890.md)
 
 ## RECURSION
 
