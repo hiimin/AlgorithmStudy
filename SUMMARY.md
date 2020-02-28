@@ -116,6 +116,13 @@
 * [1063\(킹\)](simulation/1063.md)
 * [1551\(수열의 변화\)](simulation/1551.md)
 
+## BRUTE FORCE
+
+* [2309\(일곱 난쟁이\)](brute-force/2309.md)
+* [2231\(분해합\)](brute-force/2231.md)
+* [1182\(부분수열의 합\)](brute-force/1182.md)
+* [1107\(리모컨\)](brute-force/1107.md)
+
 ## ACM-ICPC
 
 * [11068\(회문인 수\)](acm-icpc/11068.md)
@@ -246,11 +253,4 @@
 ## COMPUTER NETWORKING
 
 * [Untitled](computer-networking/untitled.md)
-
-## BRUTE FORCE
-
-* [2309\(일곱 난쟁이\)](brute-force/2309.md)
-* [2231\(분해합\)](brute-force/2231.md)
-* [1182\(부분수열의 합\)](brute-force/1182.md)
-* [1107\(리모컨\)](brute-force/1107.md)
 
