@@ -124,6 +124,7 @@
 * [1107\(리모컨\)](brute-force/1107.md)
 * [10448\(유레카 이론\)](brute-force/10448.md)
 * [1748\(수 이어 쓰기 1\)](brute-force/1748-1.md)
+* [2503\(숫자 야구\)](brute-force/2503.md)
 
 ## ACM-ICPC
 
