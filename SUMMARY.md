@@ -126,6 +126,8 @@
 * [1748\(수 이어 쓰기 1\)](brute-force/1748-1.md)
 * [2503\(숫자 야구\)](brute-force/2503.md)
 * [1051\(숫자 정사각형\)](brute-force/1051.md)
+* [3085\(사탕 게임\)](brute-force/3085.md)
+* [1038\(감소하는 수\)](brute-force/1038.md)
 
 ## ACM-ICPC
 
