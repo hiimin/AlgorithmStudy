@@ -128,6 +128,7 @@
 * [1051\(숫자 정사각형\)](brute-force/1051.md)
 * [3085\(사탕 게임\)](brute-force/3085.md)
 * [1038\(감소하는 수\)](brute-force/1038.md)
+* [7453\(합이 0인 네 정수\)](brute-force/7453-0.md)
 
 ## ACM-ICPC
 
