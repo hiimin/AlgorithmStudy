@@ -131,6 +131,7 @@
 * [7453\(합이 0인 네 정수\)](brute-force/7453-0.md)
 * [1072\(게임\)](brute-force/1072.md)
 * [1213\(팰린드롬 만들기\)](brute-force/1213.md)
+* [1405\(미친 로봇\)](brute-force/1405.md)
 
 ## ACM-ICPC
 
