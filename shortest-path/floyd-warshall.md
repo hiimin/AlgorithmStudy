@@ -51,7 +51,7 @@ public class Main {
 }
 ```
 
-### [- 11404\(플로이드\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-Lym5bLUoOm5aMRK8gnC/baekjoon/11404)
+### [- 11404\(플로이드\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/baekjoon/11404)
 
 ### [- 1613\(역사\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-Lym5bLUoOm5aMRK8gnC/baekjoon/1613)
 
