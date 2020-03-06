@@ -132,6 +132,8 @@
 * [1072\(게임\)](brute-force/1072.md)
 * [1213\(팰린드롬 만들기\)](brute-force/1213.md)
 * [1405\(미친 로봇\)](brute-force/1405.md)
+* [2858\(기숙사 바닥\)](brute-force/2858.md)
+* [4641\(Doubles\)](brute-force/4641-doubles.md)
 
 ## ACM-ICPC
 
