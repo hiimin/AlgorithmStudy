@@ -134,6 +134,7 @@
 * [1405\(미친 로봇\)](brute-force/1405.md)
 * [2858\(기숙사 바닥\)](brute-force/2858.md)
 * [4641\(Doubles\)](brute-force/4641-doubles.md)
+* [2966\(찍기\)](brute-force/2966.md)
 
 ## ACM-ICPC
 
