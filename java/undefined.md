@@ -92,3 +92,116 @@ ex\) 사람\(속성: 키, 몸무게  기능: 의사\), 승용차\(속성: 바퀴
 
 멤버 변수를 외부에서 변경할 수 있도록 하는 메서
 
+## Java 상속 및 클래스
+
+### 상속
+
+부모 클래스를 상속받은 자식 클래스는 부모 클래스의 속성과 기능을 이할 수 있다.
+
+###  상속의 필요성
+
+ 기존의 검증된 class를 이용해서 빠르고 쉽게 새로운 class를 만들 수 있다.
+
+ 자바에서는 단일 상속만 지원. 하나의 클래스는 하나의 클래스만 상속 받을 수 있다.
+
+###  부모 클래스의 private 접근자
+
+ 자식 클래스는 부모 클래스의 모든 자원을 사용할 수 있지만, private 접근자의 속성과 메서드는 사용할 수 없다.
+
+### 메서드 재정의\(override\)
+
+ 부모 클래스의 기능을 자식 클래스에서 재정의해서 사용한다.
+
+###  Object 클래스
+
+ 모든 클래스의 최상위 클래스는 Object 클래스이다.
+
+###  super 클래스
+
+ 상위 클래스 호출할 때 super 키워드를 사용한다.\(자기 자신은 this\)
+
+###  내부\(inner\) 클래스
+
+ 클래스 안에 또 다른 클래스를 선언하는 것으로 이렇게 하면 두 클래스의 멤버에 쉽게 접근할 수 있다. 그다지 많이 쓰이지 않음.
+
+###   익명\(anonymous\) 클래스
+
+  이름이 없는 클래스로 주로 메서드를 재정의 하는 목적으로 사용된다. 인터페이스와 추상클래스에 사
+
+![](../.gitbook/assets/image%20%281%29.png)
+
+###  인터페이스\(interface\)
+
+ 클래스와 달리 객체를 생성할 수 없으며, 클래스에서 구현해야 하는 작업 명세서이다.  인터페이스를 사용하는 이유는 많지만, 가장 큰 이유는 객체가 다양한 자료형\(타입\)을 가질 수 있기 때문이다.
+
+![&#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4;&#xB97C; &#xC0AC;&#xC6A9;&#xD55C; &#xB2E4;&#xC591;&#xD55C; &#xC790;&#xB8CC;&#xD615;](../.gitbook/assets/image%20%2836%29.png)
+
+![&#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4; &#xC0AC;&#xC6A9;](../.gitbook/assets/image%20%2814%29.png)
+
+ 인터페이스 클래스에서는 작업\(메서드\) 명세\(선언\)만 해놓고 인터페이스를 implements한 클래스에서 정의를 한다. 여기서 선언만 되어있는 메서드를 추상 메서드라고 한다.
+
+![&#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4; &#xC0AC;&#xC6A9; &#xC608;&#xC2DC;](../.gitbook/assets/image%20%2825%29.png)
+
+ Toy 인터페이스를 implements해서 각각 Toy인터페이스의 추상 메서드를 구현하여 사용
+
+{% tabs %}
+{% tab title="Toy.java" %}
+```java
+public interface Toy {
+    public void walk();
+    public void run();
+    public void alarm();
+    public void light();
+}
+```
+{% endtab %}
+
+{% tab title="ToyRobot" %}
+```java
+public class ToyRobot implements Toy {
+  public void walk() {
+		System.out.println("robot walk");
+	}
+	
+	public void run() {
+		System.out.println("robot run");
+	}
+	
+	public void alarm() {
+		System.out.println("robot alarm");
+	}
+	
+	public void light() {
+		System.out.println("robot light");
+	}
+}
+```
+{% endtab %}
+
+{% tab title="ToyAirplane" %}
+```java
+public class ToyAirplane implements Toy {
+  public void walk() {
+		System.out.println("ToyAirplane walk");
+	}
+	
+	public void run() {
+		System.out.println("ToyAirplane run");
+	}
+	
+	public void alarm() {
+		System.out.println("ToyAirplane alarm");
+	}
+	
+	public void light() {
+		System.out.println("ToyAirplane light");
+	}
+}
+```
+{% endtab %}
+{% endtabs %}
+
+
+
+
+
