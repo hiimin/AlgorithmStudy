@@ -2,6 +2,10 @@
 
 * [Jeongmin's IT book](README.md)
 
+## JAVA
+
+* [개념정리](java/undefined.md)
+
 ## Sorting
 
 * [selection sort](sorting/selection-sort.md)
@@ -267,8 +271,4 @@
 ## COMPUTER NETWORKING
 
 * [Untitled](computer-networking/untitled.md)
-
-## JAVA
-
-* [개념정리](java/undefined.md)
 
