@@ -56,6 +56,7 @@
 * [1904\(01타일\)](dynamic-programming/1904-01.md)
 * [1890\(점프\)](dynamic-programming/1890.md)
 * [12865\(평범한 배낭\)](dynamic-programming/12865.md)
+* [2839\(설탕 배달\)](dynamic-programming/2839.md)
 
 ## RECURSION
 
