@@ -1,14 +1,14 @@
 # counting sort
 
-![](../.gitbook/assets/image%20%2860%29.png)
-
-![](../.gitbook/assets/image%20%2878%29.png)
-
-![](../.gitbook/assets/image%20%284%29.png)
-
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2861%29.png)
 
 ![](../.gitbook/assets/image%20%2879%29.png)
+
+![](../.gitbook/assets/image%20%285%29.png)
+
+![](../.gitbook/assets/image%20%2818%29.png)
+
+![](../.gitbook/assets/image%20%2880%29.png)
 
 ### CODE
 
