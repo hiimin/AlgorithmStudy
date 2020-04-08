@@ -274,7 +274,7 @@
 
 ## COMPUTER NETWORKING
 
-* [Untitled](computer-networking/untitled.md)
+* [개념 정리](computer-networking/untitled.md)
 
 ## SPRING
 
