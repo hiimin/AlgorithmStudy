@@ -174,23 +174,23 @@ public class Main {
 }
 ```
 
-### [- 1261\(알고스팟\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LybuKctn05i-C9i0XSY/baekjoon/1261)
+### - 1261\(알고스팟\)
 
-### [- 4485\(녹색 옷 입은 애가 젤다지?\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LybuKctn05i-C9i0XSY/baekjoon/4485)
+### - 4485\(녹색 옷 입은 애가 젤다지?\)
 
-### [- 1504\(특정한 최단 경로\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LycIsjdZOjQRSHqto2d/baekjoon/1504)
+### - 1504\(특정한 최단 경로\)
 
-### [- 6593\(상범 빌딩\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LycIsjdZOjQRSHqto2d/baekjoon/6593)
+### - 6593\(상범 빌딩\)
 
-### [- 5719\(거의 최단 경로\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LyhUSikMKDgGO0QfxJm/baekjoon/5719)
+### - 5719\(거의 최단 경로\)
 
-### [- 11779\(최소비용 구하기 2\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-LyhiTfeIDCBotZbyA0D/baekjoon/11779-2)
+### - 11779\(최소비용 구하기 2\)
 
-### [- 6118\(숨바꼭질\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-Lym5bLUoOm5aMRK8gnC/baekjoon/6118)
+### - 6118\(숨바꼭질\)
 
-### [- 9205\(맥주 마시면서 걸어가기\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-Lym5bLUoOm5aMRK8gnC/baekjoon/9205)
+### - 9205\(맥주 마시면서 걸어가기\)
 
-### [- 10282\(해킹\)](https://app.gitbook.com/@hiimin/s/jeongmin_book/~/drafts/-Lzf-Rz9LxnbOQpyohul/baekjoon/10282)
+### - 10282\(해킹\)
 
 ## Reference
 
