@@ -3,6 +3,8 @@
 * 하나의 시작 정점으로부터 다른 모든 정점까지의 최단 경로를 찾을 경우
 * 음수 가중치가 없을 경우
 
+{% embed url="https://www.youtube.com/watch?v=icqzGct4V1s" %}
+
 {% embed url="https://jason9319.tistory.com/307" %}
 
 
