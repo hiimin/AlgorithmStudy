@@ -35,6 +35,10 @@
 * [Floyd Warshall](shortest-path/floyd-warshall.md)
 * [Dijkstra](shortest-path/dijkstra.md)
 
+## MST
+
+* [Kruskal](mst/kruskal.md)
+
 ## DYNAMIC PROGRAMMING
 
 * [2579\(계단오르기\)](dynamic-programming/undefined.md)
@@ -287,8 +291,4 @@
 ## OPERATING SYSTEM
 
 * [개념 정리](operating-system/undefined.md)
-
-## MST
-
-* [Kruskal](mst/kruskal.md)
 
