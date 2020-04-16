@@ -14,96 +14,73 @@
 
 ```java
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
+import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
+import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-class Main {
-	static int Answer;
-	static int N;	//도시 개수
-	static int M;	//버스 노선 개수
-	static int upper[];	//1번 도시에서 출발해서 N번 도시로 가는 가장 빠른 시간
-	static int isInfinite[];	//0이면 무한대	1이면 무한대 아님
-	//static LinkedList<Integer> W = new LinkedList<>();
-	static int W[][];
+class Path {
+	int next;
+	int time;
 
-	public static void main(String args[]) throws Exception	{
+	Path(int next, int time) {
+		this.next = next;
+		this.time = time;
+	}
+}
+
+class Main {
+
+	public static void main(String args[]) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		StringTokenizer st;
-		
-		st = new StringTokenizer(br.readLine());
-		
-		N = Integer.parseInt(st.nextToken());
-		M = Integer.parseInt(st.nextToken());
-		
-		upper = new int[N+1]; //0 ~ N
-		isInfinite = new int[N+1];	//0 ~ N
-		W = new int[M][3];
-		
-		upper[1] = 0;
-		isInfinite[1] = 1;
-		
-		for(int i = 0; i < M; i++) {
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int n = Integer.parseInt(st.nextToken());
+		int m = Integer.parseInt(st.nextToken());
+
+		int dist[] = new int[n];
+		ArrayList<Path> paths[] = new ArrayList[n];
+		for (int i = 0; i < n; i++) {
+			paths[i] = new ArrayList<Path>();
+			dist[i] = Integer.MAX_VALUE;
+		}
+		dist[0] = 0;
+
+		for (int i = 0; i < m; i++) {
 			st = new StringTokenizer(br.readLine());
-			int row = Integer.parseInt(st.nextToken());
-			int column = Integer.parseInt(st.nextToken());
-			int weight = Integer.parseInt(st.nextToken());
-			
-			W[i][0] = row;
-			W[i][1] = column;
-			W[i][2] = weight;
+			int a = Integer.parseInt(st.nextToken()) - 1;
+			int b = Integer.parseInt(st.nextToken()) - 1;
+			int c = Integer.parseInt(st.nextToken());
+
+			paths[a].add(new Path(b, c));
 		}
-		
-		/*for(int i = 0; i < W.size(); i++) {
-			System.out.println(W.get(i));
-		}*/
-		
-		boolean updated = false;
-		
-		//relax
-		for(int i = 0; i < N; i++) {	//|V|-1번 반복 대신 |V|번 반복
-			updated = false;			//relax가 한번이라도 성공할 경우 true
-			
-			for(int j = 0; j < M; j++) {//모든 간선에 대해
-				int start = W[j][0];
-				int end = W[j][1];
-				int w = W[j][2];
-				
-				//System.out.println(start);
-				if(isInfinite[start] != 0)
-					if(isInfinite[end] == 0 || upper[start] + w < upper[end]) {
-						isInfinite[end] = 1;
-						upper[end] = upper[start] + w;
-						updated = true;
+
+		boolean isChanged = false;
+		for (int i = 0; i < n; i++) {
+			isChanged = false;
+
+			for (int currentCity = 0; currentCity < n; currentCity++) {
+				for (int bus = 0; bus < paths[currentCity].size(); bus++) {
+					int nextCity = paths[currentCity].get(bus).next;
+					int time = paths[currentCity].get(bus).time;
+
+					if (dist[currentCity] != Integer.MAX_VALUE && dist[nextCity] > dist[currentCity] + time) {
+						isChanged = true;
+						dist[nextCity] = dist[currentCity] + time;
 					}
-			}
-		}
-		
-		//마지막 relax후 updated값이 true이면 relax가 적어도 한 번은 성공했다는 것
-		//이라는 뜻이고 이는 음수사이클이 존재한다는 것
-		if(updated) {
-			bw.write("-1");
-			bw.write("\n");
-			//System.out.println(-1);
-		}else {
-			for(int i = 2; i <= N; i++) {
-				if(isInfinite[i] == 0) {
-					bw.write("-1");
-					bw.write("\n");
-					//System.out.println(-1);	
-				}
-				else {
-					bw.write(String.valueOf(upper[i]));
-					bw.write("\n");
-					//System.out.println(upper[i]);
 				}
 			}
 		}
-		bw.flush();
-		bw.close();
-		//System.out.println(Answer);
+
+		if (isChanged)
+			System.out.println(-1);
+		else {
+			for (int i = 1; i < n; i++) {
+				if (dist[i] == Integer.MAX_VALUE)
+					System.out.println(-1);
+				else
+					System.out.println(dist[i]);
+			}
+		}
 	}
 }
 ```
