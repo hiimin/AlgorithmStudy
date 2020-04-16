@@ -229,6 +229,9 @@
 * [11562\(백양로 브레이크\)](baekjoon/11562.md)
 * [14890\(경사로\)](baekjoon/14890.md)
 * [14891\(톱니바퀴\)](baekjoon/14891.md)
+* [1197\(최소 스패닝 트리\)](baekjoon/1197.md)
+* [1922\(네트워크 연결\)](baekjoon/1922.md)
+* [1647\(도시 분할 계획\)](baekjoon/1647.md)
 
 ## useful
 
@@ -284,4 +287,8 @@
 ## OPERATING SYSTEM
 
 * [개념 정리](operating-system/undefined.md)
+
+## MST
+
+* [Kruskal](mst/kruskal.md)
 
