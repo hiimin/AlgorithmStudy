@@ -29,6 +29,10 @@
 * [linked list](queue/linked-list.md)
 * [priority queue](queue/priority-queue.md)
 
+## HASHING
+
+* [hashing](hashing/untitled.md)
+
 ## SHORTEST PATH
 
 * [Bellman-Ford](shortest-path/bellman-ford.md)
@@ -291,8 +295,4 @@
 ## SPRING
 
 * [Untitled](spring/untitled.md)
-
-## HASHING
-
-* [Untitled](hashing/untitled.md)
 

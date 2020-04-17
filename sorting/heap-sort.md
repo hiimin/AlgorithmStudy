@@ -4,43 +4,43 @@
 * Sorts in place - 추가 배열 불필요
 * 이진 힙\(binary heap\) 자료구조를 사용
 
-![](../.gitbook/assets/image%20%2882%29.png)
+![](../.gitbook/assets/image%20%2889%29.png)
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](../.gitbook/assets/image%20%2862%29.png)
 
-![](../.gitbook/assets/image%20%2867%29.png)
+![](../.gitbook/assets/image%20%2872%29.png)
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
+
+![](../.gitbook/assets/image%20%2811%29.png)
+
+![](../.gitbook/assets/image%20%2868%29.png)
+
+![](../.gitbook/assets/image%20%2820%29.png)
+
+![](../.gitbook/assets/image%20%2876%29.png)
+
+![](../.gitbook/assets/image%20%2844%29.png)
+
+![](../.gitbook/assets/image%20%2835%29.png)
 
 ![](../.gitbook/assets/image%20%2810%29.png)
 
-![](../.gitbook/assets/image%20%2863%29.png)
+![](../.gitbook/assets/image%20%2895%29.png)
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2874%29.png)
 
-![](../.gitbook/assets/image%20%2870%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
-![](../.gitbook/assets/image%20%2839%29.png)
-
-![](../.gitbook/assets/image%20%2830%29.png)
-
-![](../.gitbook/assets/image%20%289%29.png)
-
-![](../.gitbook/assets/image%20%2888%29.png)
-
-![](../.gitbook/assets/image%20%2869%29.png)
-
-![](../.gitbook/assets/image%20%2871%29.png)
-
-![](../.gitbook/assets/image%20%2887%29.png)
+![](../.gitbook/assets/image%20%2894%29.png)
 
 ![](../.gitbook/assets/image.png)
 

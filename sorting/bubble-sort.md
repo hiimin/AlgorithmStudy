@@ -1,10 +1,10 @@
 # bubble sort
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%2865%29.png)
 
 >
 
-![](../.gitbook/assets/image%20%2884%29.png)
+![](../.gitbook/assets/image%20%2891%29.png)
 
 ### CODE
 
