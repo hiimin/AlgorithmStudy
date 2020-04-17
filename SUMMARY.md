@@ -32,6 +32,7 @@
 ## HASHING
 
 * [hashing](hashing/untitled.md)
+* [Consistent Hashing](hashing/consistent-hashing.md)
 
 ## SHORTEST PATH
 
