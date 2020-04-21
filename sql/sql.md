@@ -114,5 +114,7 @@ SELECT COLUMN_NAME1, IFNULL(COLUMN_NAME2,"TEXT"), COLUMN_NAME3
 FROM TABLE_NAME;
 ```
 
- 해당 컬럼의 값이 비어있을 경우\(NULL\) "TEXT"로 대
+ 해당 컬럼의 값이 비어있을 경우\(NULL\) "TEXT"로 대체
+
+{% embed url="https://programmers.co.kr/learn/challenges" %}
 
