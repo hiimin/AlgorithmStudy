@@ -116,5 +116,157 @@ FROM TABLE_NAME;
 
  해당 컬럼의 값이 비어있을 경우\(NULL\) "TEXT"로 대체
 
-{% embed url="https://programmers.co.kr/learn/challenges" %}
+## JOIN
+
+ 두개 이상의  테이블이나 데이터베이스를 연결하여 데이터를 검색하는 방법이다. 자신이 검색하고 싶은 컬럼이 다른 테이블에 있을 경우 주로 사용하는 방법이며 여러개의 테이블을 마치 하나의 테이블인 것처럼 활용하는 방법. 보통 Primary Key 혹은 Foreign Key로 두 테이블을 연결한다. 테이블을 연결하려면 적어도 하나의 컬럼은 서로 공유되고 있어야 한다. 벤다이어그램을 활용하면 쉽게 이해할 수 있음
+
+### INNER JOIN
+
+![](../.gitbook/assets/image%20%2849%29.png)
+
+*  교집합
+*  기준테이블과 Join한 테이블의 중복된 값을 보여줌
+* 결과값은 A테이블과 B테이블이 모두 가지고 있는 데이터만 검색된다.
+
+```sql
+SELECT
+테이블별칭.조회할칼럼,
+테이블별칭.조회할칼럼
+FROM 기준테이블 별칭
+INNER JOIN 조인테이블 별칭 ON 기준테이블별칭.기준키 = 조인테이블별칭.기준키....
+
+--예제--
+SELECT
+A.NAME, --A테이블의 NAME조회
+B.AGE --B테이블의 AGE조회
+FROM EX_TABLE A
+INNER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP AND A.DEPT = B.DEPT
+```
+
+### LEFT OUTER JOIN
+
+![](../.gitbook/assets/image%20%2869%29.png)
+
+*  기준 테이블의 값 + 테이블과 기준 테이블의 중복된 값을 보여줌
+*  왼쪽 테이블을 기준으로 JOIN
+*  A테이블의 모든 데이터와 A테이블과 B테이블의 중복되는 값이 검색됨
+
+```sql
+SELECT
+테이블별칭.조회할칼럼,
+테이블별칭.조회할칼럼
+FROM 기준테이블 별칭
+LEFT OUTER JOIN 조인테이블 별칭 ON 기준테이블별칭.기준키 = 조인테이블별칭.기준키 .....
+
+--예제--
+SELECT
+A.NAME, --A테이블의 NAME조회
+B.AGE --B테이블의 AGE조회
+FROM EX_TABLE A
+LEFT OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP AND A.DEPT = B.DEPT
+```
+
+
+
+### RIGHT OUTER JOIN
+
+![](../.gitbook/assets/image%20%2827%29.png)
+
+*  기준 테이블의 값 + 테이블과 기준 테이블의 중복된 값을 보여줌
+*  오쪽 테이블을 기준으로 JOIN
+*  B테이블의 모든 데이터와 A테이블과 B테이블의 중복되는 값이 검색됨
+
+```sql
+SELECT
+테이블별칭.조회할칼럼,
+테이블별칭.조회할칼럼
+FROM 기준테이블 별칭
+RIGHT OUTER JOIN 조인테이블 별칭 ON 기준테이블별칭.기준키 = 조인테이블별칭.기준키 .....
+
+--예제--
+SELECT
+A.NAME, --A테이블의 NAME조회
+B.AGE --B테이블의 AGE조회
+FROM EX_TABLE A
+RIGHT OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP AND A.DEPT = B.DEPT
+```
+
+### FULL OUTER JOIN
+
+![](../.gitbook/assets/image%20%2864%29.png)
+
+*  합집합
+*  A테이블이 가지고 있는 데이터, B테이블이 가지고있는 데이터 모두 검
+
+```sql
+SELECT
+테이블별칭.조회할칼럼,
+테이블별칭.조회할칼럼
+FROM 기준테이블 별칭
+FULL OUTER JOIN 조인테이블 별칭 ON 기준테이블별칭.기준키 = 조인테이블별칭.기준키 .....
+
+--예제--
+SELECT
+A.NAME, --A테이블의 NAME조회
+B.AGE --B테이블의 AGE조회
+FROM EX_TABLE A
+FULL OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP AND A.DEPT = B.DEPT
+```
+
+### CROSS JOIN
+
+![](../.gitbook/assets/image%20%2879%29.png)
+
+*  모든 경우의 수를 전부 표
+
+```sql
+--문법(첫번째방식)--
+SELECT
+테이블별칭.조회할칼럼,
+테이블별칭.조회할칼럼
+FROM 기준테이블 별칭
+CROSS JOIN 조인테이블 별칭
+
+--예제(첫번째방식)--
+SELECT
+A.NAME, --A테이블의 NAME조회
+B.AGE --B테이블의 AGE조회
+FROM EX_TABLE A
+CROSS JOIN JOIN_TABLE B
+
+================================================================
+
+--문법(두번째방식)--
+SELECT
+테이블별칭.조회할칼럼,
+테이블별칭.조회할칼럼
+FROM 기준테이블 별칭,조인테이블 별칭
+
+--예제(두번째방식)--
+SELECT
+A.NAME, --A테이블의 NAME조회
+B.AGE --B테이블의 AGE조회
+FROM EX_TABLE A,JOIN_TABLE B
+```
+
+### SELF JOIN
+
+![](../.gitbook/assets/image%20%287%29.png)
+
+*  자기자신과 자기자신을 조인
+*  자신이 가지고 있는 칼럼을 다양하게 변형시켜 활용할 경우 사용
+
+```sql
+--문법--
+SELECT
+테이블별칭.조회할칼럼,
+테이블별칭.조회할칼럼
+FROM 테이블 별칭,테이블 별칭2
+
+--예제--
+SELECT
+A.NAME, --A테이블의 NAME조회
+B.AGE --B테이블의 AGE조회
+FROM EX_TABLE A,EX_TABLE B
+```
 

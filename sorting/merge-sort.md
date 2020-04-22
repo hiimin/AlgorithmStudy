@@ -1,10 +1,10 @@
 # merge sort
 
-![](../.gitbook/assets/image%20%2845%29.png)
+![](../.gitbook/assets/image%20%2847%29.png)
 
-![](../.gitbook/assets/image%20%2897%29.png)
+![](../.gitbook/assets/image%20%28103%29.png)
 
-![](../.gitbook/assets/image%20%2887%29.png)
+![](../.gitbook/assets/image%20%2893%29.png)
 
 ### CODE
 
