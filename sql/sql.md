@@ -270,3 +270,55 @@ B.AGE --B테이블의 AGE조회
 FROM EX_TABLE A,EX_TABLE B
 ```
 
+## LIKE
+
+ 특정 문자열이 포함된 데이터 검색
+
+```sql
+-- 문법
+SELECT COLUMN_NAME
+FROM TABLE_NAME
+WHERE COLUMN_NAME
+LIKE '%특정문자열%';
+
+--  예제
+SELECT ANIMAL_ID, NAME
+FROM ANIMAL_INS
+WHERE NAME LIKE '%EL%'
+AND ANIMAL_TYPE = 'Dog'
+ORDER BY NAME;
+```
+
+## CASE WHEN THEN
+
+*  조건에 따라 값을 지정
+* 컬럼이 조건1 일 경우 값1, 조건2 일 경우 값2를 반환하고, 조건에 맞지 않을 경우 값3 반
+
+```sql
+-- 문
+CASE 컬럼  
+WHEN 조건1 THEN 값1 
+WHEN 조건2 THEN 값2 
+ELSE 값3 
+END
+
+-- 예제
+SELECT ProductNumber, Name,
+CASE  
+WHEN ListPrice = 0 THEN 'Mfg item - not for resale'  
+WHEN ListPrice < 50 THEN 'Under $50'  
+WHEN ListPrice >= 50 and ListPrice < 250 THEN 'Under $250'  
+WHEN ListPrice >= 250 and ListPrice < 1000 THEN 'Under $1000'  
+ELSE 'Over $1000' 
+END  
+FROM Production.Product ORDER BY ProductNumber;
+```
+
+##  DATE\_FORMAT\(\)
+
+ DATETIME의 형식 변환
+
+{% embed url="https://www.w3schools.com/sql/func\_mysql\_date\_format.asp" %}
+
+
+
