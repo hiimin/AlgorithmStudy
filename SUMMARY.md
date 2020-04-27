@@ -43,6 +43,7 @@
 ## MST
 
 * [Kruskal](mst/kruskal.md)
+* [Prim](mst/prim.md)
 
 ## DYNAMIC PROGRAMMING
 

@@ -18,17 +18,17 @@
 
  스프링에서 객체를 생성하고 조립하는 컨테이너\(container\)로, 컨테이너를 통해 생성된 객체를 빈\(Bean\)이라고 부른다.
 
-![](../.gitbook/assets/image%20%2872%29.png)
+![](../.gitbook/assets/image%20%2874%29.png)
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 ###  폴더 및 pom.xml파일
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
 ###  DI\(Dependency injection\)
 
-![](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2857%29.png)
 

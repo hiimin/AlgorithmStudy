@@ -12,7 +12,7 @@
   * h : U → {0,1,...,m-1}, 여기서 m은 테이블의 크기, U는 모든 가능한 키들의 집합
   * 키 k가 h\(k\)로 해슁되었다고 말함
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 ##  해쉬 함수
 
@@ -39,7 +39,7 @@
 
 * 동일한 장소로 해슁된 모든 키들을 하나의 연결리스트\(Linked List\) 로 저장
 
-![](../.gitbook/assets/image%20%2881%29.png)
+![](../.gitbook/assets/image%20%2883%29.png)
 
 * 키의 삽입\(Insertion\)
   * 키 k를 리스트 T\[h\(k\)\]의 맨 앞에 삽입: 시간복잡도 O\(1\) 
@@ -81,7 +81,7 @@
 
 ### Open Addressing - Linear Probing
 
-![](../.gitbook/assets/image%20%2886%29.png)
+![](../.gitbook/assets/image%20%2888%29.png)
 
 h\(k\), h\(k\)+1, h\(k\)+2,… 순서로 검사하여 처음으로 빈 슬롯에 저장 테이블의 끝에 도달하면 다시 처음으로 circular하게 돌아감
 
@@ -101,7 +101,7 @@ h\(k\), h\(k\)+1, h\(k\)+2,… 순서로 검사하여 처음으로 빈 슬롯에
 
 ### Open Addressing - Double hashing
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
 ### Open Addressing - 키의 삭제
 
@@ -110,7 +110,7 @@ h\(k\), h\(k\)+1, h\(k\)+2,… 순서로 검사하여 처음으로 빈 슬롯에
   * B2를 삭제한 후\(가운데 그림\) C2를 검색
   * C2를 검색하면 A2 다음을 확인하게 되고, 없는 값으로 판단 됨
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 ###  좋은 해쉬 함수란
 
