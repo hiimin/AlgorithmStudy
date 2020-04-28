@@ -176,6 +176,7 @@
 * [7699. 수지의 수지 맞는 여행](sw-expert-academy/7699..md)
 * [9280. 진용이네 주차타워](sw-expert-academy/9280..md)
 * [8931. 제로](sw-expert-academy/8931..md)
+* [2819. 격자판의 숫자 이어 붙이기](sw-expert-academy/2819..md)
 
 ## SAMSUNG A
 
