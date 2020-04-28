@@ -177,6 +177,7 @@
 * [9280. 진용이네 주차타워](sw-expert-academy/9280..md)
 * [8931. 제로](sw-expert-academy/8931..md)
 * [2819. 격자판의 숫자 이어 붙이기](sw-expert-academy/2819..md)
+* [3752. 가능한 시험 점수](sw-expert-academy/3752..md)
 
 ## SAMSUNG A
 
