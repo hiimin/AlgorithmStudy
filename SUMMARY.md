@@ -178,6 +178,8 @@
 * [8931. 제로](sw-expert-academy/8931..md)
 * [2819. 격자판의 숫자 이어 붙이기](sw-expert-academy/2819..md)
 * [3752. 가능한 시험 점수](sw-expert-academy/3752..md)
+* [1249. 보급로](sw-expert-academy/1249..md)
+* [1824. 혁진이의 프로그램 검증](sw-expert-academy/1824..md)
 
 ## SAMSUNG A
 
