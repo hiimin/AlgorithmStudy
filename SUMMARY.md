@@ -180,6 +180,7 @@
 * [3752. 가능한 시험 점수](sw-expert-academy/3752..md)
 * [1249. 보급로](sw-expert-academy/1249..md)
 * [1824. 혁진이의 프로그램 검증](sw-expert-academy/1824..md)
+* [1226. 미로1](sw-expert-academy/1226.-1.md)
 
 ## SAMSUNG A
 
