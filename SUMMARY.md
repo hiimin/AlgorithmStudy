@@ -183,6 +183,7 @@
 * [1226. 미로1](sw-expert-academy/1226.-1.md)
 * [1868. 파핑파핑 지뢰찾기](sw-expert-academy/1868..md)
 * [4408. 자기 방으로 돌아가기](sw-expert-academy/4408..md)
+* [1861. 정사각형 방](sw-expert-academy/1861..md)
 
 ## SAMSUNG A
 
