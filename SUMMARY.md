@@ -184,6 +184,7 @@
 * [1868. 파핑파핑 지뢰찾기](sw-expert-academy/1868..md)
 * [4408. 자기 방으로 돌아가기](sw-expert-academy/4408..md)
 * [1861. 정사각형 방](sw-expert-academy/1861..md)
+* [1486. 장훈이의 높은 선반](sw-expert-academy/1486..md)
 
 ## SAMSUNG A
 
