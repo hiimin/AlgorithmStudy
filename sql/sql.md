@@ -122,7 +122,7 @@ FROM TABLE_NAME;
 
 ### INNER JOIN
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 *  교집합
 *  기준테이블과 Join한 테이블의 중복된 값을 보여줌
@@ -145,7 +145,7 @@ INNER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP AND A.DEPT = B.DEPT
 
 ### LEFT OUTER JOIN
 
-![](../.gitbook/assets/image%20%2874%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
 *  기준 테이블의 값 + 테이블과 기준 테이블의 중복된 값을 보여줌
 *  왼쪽 테이블을 기준으로 JOIN
@@ -170,7 +170,7 @@ LEFT OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP AND A.DEPT = B.DEPT
 
 ### RIGHT OUTER JOIN
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 *  기준 테이블의 값 + 테이블과 기준 테이블의 중복된 값을 보여줌
 *  오쪽 테이블을 기준으로 JOIN
@@ -193,7 +193,7 @@ RIGHT OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP AND A.DEPT = B.DEPT
 
 ### FULL OUTER JOIN
 
-![](../.gitbook/assets/image%20%2868%29.png)
+![](../.gitbook/assets/image%20%2871%29.png)
 
 *  합집합
 *  A테이블이 가지고 있는 데이터, B테이블이 가지고있는 데이터 모두 검
@@ -215,7 +215,7 @@ FULL OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP AND A.DEPT = B.DEPT
 
 ### CROSS JOIN
 
-![](../.gitbook/assets/image%20%2884%29.png)
+![](../.gitbook/assets/image%20%2887%29.png)
 
 *  모든 경우의 수를 전부 표
 
@@ -251,7 +251,7 @@ FROM EX_TABLE A,JOIN_TABLE B
 
 ### SELF JOIN
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 *  자기자신과 자기자신을 조인
 *  자신이 가지고 있는 칼럼을 다양하게 변형시켜 활용할 경우 사용

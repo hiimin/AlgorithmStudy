@@ -134,13 +134,13 @@ ex\) 사람\(속성: 키, 몸무게  기능: 의사\), 승용차\(속성: 바퀴
 
  클래스와 달리 객체를 생성할 수 없으며, 클래스에서 구현해야 하는 작업 명세서이다.  인터페이스를 사용하는 이유는 많지만, 가장 큰 이유는 객체가 다양한 자료형\(타입\)을 가질 수 있기 때문이다. 다시말해 인터페이스를 이용하여 클래스를 구현하면 다른 클래스와 대체가 유연해서 유지보수가 편해진다는 장점이 있다. 마치 규격만 맞으면 다른 부품으로 바꿀 수 있는 것처럼 쉽게 변경할 수 있기 때문이다.
 
-![&#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4;&#xB97C; &#xC0AC;&#xC6A9;&#xD55C; &#xB2E4;&#xC591;&#xD55C; &#xC790;&#xB8CC;&#xD615;](../.gitbook/assets/image%20%2869%29.png)
+![&#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4;&#xB97C; &#xC0AC;&#xC6A9;&#xD55C; &#xB2E4;&#xC591;&#xD55C; &#xC790;&#xB8CC;&#xD615;](../.gitbook/assets/image%20%2872%29.png)
 
-![&#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4; &#xC0AC;&#xC6A9;](../.gitbook/assets/image%20%2828%29.png)
+![&#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4; &#xC0AC;&#xC6A9;](../.gitbook/assets/image%20%2829%29.png)
 
  인터페이스 클래스에서는 작업\(메서드\) 명세\(선언\)만 해놓고 인터페이스를 implements한 클래스에서 정의를 한다. 여기서 선언만 되어있는 메서드를 추상 메서드라고 한다.
 
-![&#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4; &#xC0AC;&#xC6A9; &#xC608;&#xC2DC;](../.gitbook/assets/image%20%2852%29.png)
+![&#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4; &#xC0AC;&#xC6A9; &#xC608;&#xC2DC;](../.gitbook/assets/image%20%2854%29.png)
 
  Toy 인터페이스를 implements해서 각각 Toy인터페이스의 추상 메서드를 구현하여 사용
 
@@ -213,9 +213,9 @@ public class ToyAirplane implements Toy {
 *  일반 메서드도 가질 수 있다.
 *  일반 클래스와 마찬가지로 생성자도 있다.
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
-![&#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4; vs &#xCD94;&#xC0C1;&#xD074;&#xB798;&#xC2A4;](../.gitbook/assets/image%20%2865%29.png)
+![&#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4; vs &#xCD94;&#xC0C1;&#xD074;&#xB798;&#xC2A4;](../.gitbook/assets/image%20%2867%29.png)
 
 ###  람다식
 
@@ -225,27 +225,27 @@ public class ToyAirplane implements Toy {
 * 인터페이스는 한개의 추상메서드만 가지고 있어야한다.
 * 이런 인터페이스를 함수적 인터페이스\(functional Interface\)라고 부른다.\(즉, 함수구현전용 인터페이스\)
 
-![&#xB78C;&#xB2E4;&#xC2DD; &#xAD6C;&#xD604;](../.gitbook/assets/image%20%2899%29.png)
+![&#xB78C;&#xB2E4;&#xC2DD; &#xAD6C;&#xD604;](../.gitbook/assets/image%20%28102%29.png)
 
 ###  문자열 클래스
 
  문자열을 다루는 String객체는 데이터가 변화하면 메모리상의 변화가 많아 속도가 느리다.
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 ###  StringBuffer, StringBuilder
 
-![](../.gitbook/assets/image%20%2864%29.png)
+![](../.gitbook/assets/image%20%2866%29.png)
 
 ###  List
 
  List는 인터페이스로 이를 구현한 클래스는 인덱스를 이용해서 데이터를 관리한다.
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 ###  Map
 
-![](../.gitbook/assets/image%20%28101%29.png)
+![](../.gitbook/assets/image%20%28104%29.png)
 
 ## 예외처리
 
@@ -270,21 +270,21 @@ public class ToyAirplane implements Toy {
 
  개발자가 예외처리하기가 가장 쉽고, 많이 사용되는 방법
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](../.gitbook/assets/image%20%2859%29.png)
 
-![](../.gitbook/assets/image%20%2879%29.png)
+![](../.gitbook/assets/image%20%2882%29.png)
 
 ###  finally
 
  예외 발생 여부와 상관없이 반드시 실행된다.
 
-![](../.gitbook/assets/image%20%2897%29.png)
+![](../.gitbook/assets/image%20%28100%29.png)
 
 ###  throws
 
  예외 발생 시 예외 처리를 직접 하지 않고 호출한 곳으로 넘긴다.
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 ##  입력과 출력
 
@@ -292,15 +292,15 @@ public class ToyAirplane implements Toy {
 
  다른 곳의 데이터를 가져오는 것을 입력이라 하고, 다른 곳으로 데이터를 내보내는 것을 출력이라고 한다.
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 ###  입/출력 기본 클래스
 
-![](../.gitbook/assets/image%20%28107%29.png)
+![](../.gitbook/assets/image%20%28110%29.png)
 
 ###  FileInputStream / FileOutputStream
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 {% tabs %}
 {% tab title="FileInputStream" %}
@@ -370,7 +370,7 @@ InputStream inputStream = null;
 
 ### DataInputStream, DataOuputStream
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 {% tabs %}
 {% tab title="DataOutputStream" %}
@@ -441,21 +441,21 @@ DataInputStream dataInputStream = null;
 
  네트워크 대상\(객체\) 사이에 입/출력\(InputStream, OutputStream\)를 이용해서 데이터를 입력하고 출력한다.
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 ###  소켓\(Socket\)
 
  네트워크에서 데이터를 주고받기 위한 장치 \(전화기, 출입구와 같음\)
 
-![](../.gitbook/assets/image%20%2892%29.png)
+![](../.gitbook/assets/image%20%2895%29.png)
 
  서버는 클라이언트를 맞을 준비를 하고 있다가 클라이언트의 요청에 반응한다.
 
-![](../.gitbook/assets/image%20%2880%29.png)
-
 ![](../.gitbook/assets/image%20%2883%29.png)
+
+![](../.gitbook/assets/image%20%2886%29.png)
 
 ###  양방향 통신
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
