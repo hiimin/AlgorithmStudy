@@ -186,6 +186,7 @@
 * [1861. 정사각형 방](sw-expert-academy/1861..md)
 * [1486. 장훈이의 높은 선반](sw-expert-academy/1486..md)
 * [1219. 길찾기](sw-expert-academy/1219..md)
+* [1211. Ladder2](sw-expert-academy/1211.-ladder2.md)
 
 ## SAMSUNG A
 
