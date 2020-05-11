@@ -187,6 +187,7 @@
 * [1486. 장훈이의 높은 선반](sw-expert-academy/1486..md)
 * [1219. 길찾기](sw-expert-academy/1219..md)
 * [1211. Ladder2](sw-expert-academy/1211.-ladder2.md)
+* [1494. 사람의 카운슬러](sw-expert-academy/1494..md)
 
 ## SAMSUNG A
 
