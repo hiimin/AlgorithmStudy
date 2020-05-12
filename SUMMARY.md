@@ -191,6 +191,7 @@
 * [1251. 하나로](sw-expert-academy/1251..md)
 * [6855. 신도시 전기 연결하기](sw-expert-academy/6855..md)
 * [3234. 준환이의 양팔저울](sw-expert-academy/3234..md)
+* [1258. 행렬찾기](sw-expert-academy/1258..md)
 
 ## SAMSUNG A
 
