@@ -189,6 +189,7 @@
 * [1211. Ladder2](sw-expert-academy/1211.-ladder2.md)
 * [1494. 사람의 카운슬러](sw-expert-academy/1494..md)
 * [1251. 하나로](sw-expert-academy/1251..md)
+* [6855. 신도시 전기 연결하기](sw-expert-academy/6855..md)
 
 ## SAMSUNG A
 
