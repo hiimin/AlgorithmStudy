@@ -193,6 +193,7 @@
 * [3234. 준환이의 양팔저울](sw-expert-academy/3234..md)
 * [1258. 행렬찾기](sw-expert-academy/1258..md)
 * [1218. 괄호 짝짓기](sw-expert-academy/1218..md)
+* [1224. 계산기3](sw-expert-academy/1224.-3.md)
 
 ## SAMSUNG A
 
