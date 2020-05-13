@@ -194,6 +194,7 @@
 * [1258. 행렬찾기](sw-expert-academy/1258..md)
 * [1218. 괄호 짝짓기](sw-expert-academy/1218..md)
 * [1224. 계산기3](sw-expert-academy/1224.-3.md)
+* [1227. 미로2](sw-expert-academy/1227.-2.md)
 
 ## SAMSUNG A
 
