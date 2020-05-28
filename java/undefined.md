@@ -459,3 +459,7 @@ DataInputStream dataInputStream = null;
 
 ![](../.gitbook/assets/image%20%2836%29.png)
 
+##  원시타입 vs 참조타입
+
+{% embed url="https://siyoon210.tistory.com/139" %}
+
