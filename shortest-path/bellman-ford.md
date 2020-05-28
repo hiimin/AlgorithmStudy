@@ -19,66 +19,67 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-class Path {
-	int next;
-	int time;
+class Edge {
+	int node;
+	int weight;
 
-	Path(int next, int time) {
-		this.next = next;
-		this.time = time;
+	Edge(int node, int weight) {
+		this.node = node;
+		this.weight = weight;
 	}
 }
 
 class Main {
 
-	public static void main(String args[]) throws IOException {
+	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
+
 		int n = Integer.parseInt(st.nextToken());
 		int m = Integer.parseInt(st.nextToken());
 
-		int dist[] = new int[n];
-		ArrayList<Path> paths[] = new ArrayList[n];
+		long distance[] = new long[n];
+		ArrayList<Edge> edges[] = new ArrayList[n];
 		for (int i = 0; i < n; i++) {
-			paths[i] = new ArrayList<Path>();
-			dist[i] = Integer.MAX_VALUE;
+			distance[i] = Long.MAX_VALUE;
+			edges[i] = new ArrayList<Edge>();
 		}
-		dist[0] = 0;
+
+		distance[0] = 0;
 
 		for (int i = 0; i < m; i++) {
 			st = new StringTokenizer(br.readLine());
-			int a = Integer.parseInt(st.nextToken()) - 1;
-			int b = Integer.parseInt(st.nextToken()) - 1;
-			int c = Integer.parseInt(st.nextToken());
+			int start = Integer.parseInt(st.nextToken()) - 1;
+			int dest = Integer.parseInt(st.nextToken()) - 1;
+			int weight = Integer.parseInt(st.nextToken());
 
-			paths[a].add(new Path(b, c));
+			edges[start].add(new Edge(dest, weight));
 		}
 
-		boolean isChanged = false;
-		for (int i = 0; i < n; i++) {
-			isChanged = false;
+		boolean isUpdated = false;
+		for (int update = 0; update < n; update++) {
+			isUpdated = false;
+			for (int i = 0; i < n; i++) {
+				for (int j = 0; j < edges[i].size(); j++) {
+					Edge edge = edges[i].get(j);
+					int nextNode = edge.node;
+					int weight = edge.weight;
 
-			for (int currentCity = 0; currentCity < n; currentCity++) {
-				for (int bus = 0; bus < paths[currentCity].size(); bus++) {
-					int nextCity = paths[currentCity].get(bus).next;
-					int time = paths[currentCity].get(bus).time;
-
-					if (dist[currentCity] != Integer.MAX_VALUE && dist[nextCity] > dist[currentCity] + time) {
-						isChanged = true;
-						dist[nextCity] = dist[currentCity] + time;
+					if (distance[i] != Long.MAX_VALUE && distance[i] + weight < distance[nextNode]) {
+						isUpdated = true;
+						distance[nextNode] = distance[i] + weight;
 					}
 				}
 			}
 		}
 
-		if (isChanged)
+		if (isUpdated)
 			System.out.println(-1);
 		else {
 			for (int i = 1; i < n; i++) {
-				if (dist[i] == Integer.MAX_VALUE)
-					System.out.println(-1);
-				else
-					System.out.println(dist[i]);
+				if (distance[i] == Long.MAX_VALUE)
+					distance[i] = -1;
+				System.out.println(distance[i]);
 			}
 		}
 	}
