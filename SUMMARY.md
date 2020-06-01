@@ -195,6 +195,7 @@
 * [1218. 괄호 짝짓기](sw-expert-academy/1218..md)
 * [1224. 계산기3](sw-expert-academy/1224.-3.md)
 * [1227. 미로2](sw-expert-academy/1227.-2.md)
+* [7701. 염라대왕의 이름 정렬](sw-expert-academy/7701..md)
 
 ## SAMSUNG A
 
