@@ -197,6 +197,7 @@
 * [1227. 미로2](sw-expert-academy/1227.-2.md)
 * [7701. 염라대왕의 이름 정렬](sw-expert-academy/7701..md)
 * [1210. Ladder1](sw-expert-academy/1210.-ladder1.md)
+* [5658. \[모의 SW 역량테스트\] 보물상자 비밀번호](sw-expert-academy/5658.-sw.md)
 
 ## SAMSUNG A
 
