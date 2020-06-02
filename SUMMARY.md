@@ -196,6 +196,7 @@
 * [1224. 계산기3](sw-expert-academy/1224.-3.md)
 * [1227. 미로2](sw-expert-academy/1227.-2.md)
 * [7701. 염라대왕의 이름 정렬](sw-expert-academy/7701..md)
+* [1210. Ladder1](sw-expert-academy/1210.-ladder1.md)
 
 ## SAMSUNG A
 
