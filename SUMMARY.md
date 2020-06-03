@@ -200,6 +200,7 @@
 * [5658. \[모의 SW 역량테스트\] 보물상자 비밀번호](sw-expert-academy/5658.-sw.md)
 * [2383. \[모의 SW 역량테스트\] 점심 식사시간](sw-expert-academy/2383.-sw.md)
 * [2382. \[모의 SW 역량테스트\] 미생물 격리](sw-expert-academy/2382.-sw.md)
+* [1949. \[모의 SW 역량테스트\] 등산로 조성](sw-expert-academy/1949.-sw.md)
 
 ## SAMSUNG A
 
