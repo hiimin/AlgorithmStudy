@@ -202,6 +202,7 @@
 * [2382. \[모의 SW 역량테스트\] 미생물 격리](sw-expert-academy/2382.-sw.md)
 * [1949. \[모의 SW 역량테스트\] 등산로 조성](sw-expert-academy/1949.-sw.md)
 * [1952. \[모의 SW 역량테스트\] 수영장](sw-expert-academy/1952.-sw.md)
+* [1953. \[모의 SW 역량테스트\] 탈주범 검거](sw-expert-academy/1953.-sw.md)
 
 ## SAMSUNG A
 
