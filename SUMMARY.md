@@ -201,6 +201,7 @@
 * [2383. \[모의 SW 역량테스트\] 점심 식사시간](sw-expert-academy/2383.-sw.md)
 * [2382. \[모의 SW 역량테스트\] 미생물 격리](sw-expert-academy/2382.-sw.md)
 * [1949. \[모의 SW 역량테스트\] 등산로 조성](sw-expert-academy/1949.-sw.md)
+* [1952. \[모의 SW 역량테스트\] 수영장](sw-expert-academy/1952.-sw.md)
 
 ## SAMSUNG A
 
