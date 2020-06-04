@@ -204,6 +204,7 @@
 * [1952. \[모의 SW 역량테스트\] 수영장](sw-expert-academy/1952.-sw.md)
 * [1953. \[모의 SW 역량테스트\] 탈주범 검거](sw-expert-academy/1953.-sw.md)
 * [2112. \[모의 SW 역량테스트\] 보호 필름](sw-expert-academy/2112.-sw.md)
+* [2115. \[모의 SW 역량테스트\] 벌꿀채취](sw-expert-academy/2115.-sw.md)
 
 ## SAMSUNG A
 
