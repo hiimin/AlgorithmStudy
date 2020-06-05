@@ -209,6 +209,7 @@
 * [2105. \[모의 SW 역량테스트\] 디저트 카페](sw-expert-academy/2105.-sw.md)
 * [2477. \[모의 SW 역량테스트\] 차량 정비소](sw-expert-academy/2477.-sw.md)
 * [4008. \[모의 SW 역량테스트\] 숫자 만들기](sw-expert-academy/4008.-sw.md)
+* [4012. \[모의 SW 역량테스트\] 요리사](sw-expert-academy/4012.-sw.md)
 
 ## SAMSUNG A
 
