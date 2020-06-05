@@ -205,6 +205,10 @@
 * [1953. \[모의 SW 역량테스트\] 탈주범 검거](sw-expert-academy/1953.-sw.md)
 * [2112. \[모의 SW 역량테스트\] 보호 필름](sw-expert-academy/2112.-sw.md)
 * [2115. \[모의 SW 역량테스트\] 벌꿀채취](sw-expert-academy/2115.-sw.md)
+* [2117. \[모의 SW 역량테스트\] 홈 방범 서비스](sw-expert-academy/2117.-sw.md)
+* [2105. \[모의 SW 역량테스트\] 디저트 카페](sw-expert-academy/2105.-sw.md)
+* [2477. \[모의 SW 역량테스트\] 차량 정비소](sw-expert-academy/2477.-sw.md)
+* [4008. \[모의 SW 역량테스트\] 숫자 만들기](sw-expert-academy/4008.-sw.md)
 
 ## SAMSUNG A
 
