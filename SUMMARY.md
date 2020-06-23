@@ -350,6 +350,7 @@
 
 * [Singleton pattern](design-pattern/singleton-pattern.md)
 * [State pattern](design-pattern/state-pattern.md)
+* [Strategy pattern](design-pattern/strategy-pattern.md)
 
 ## MANUAL
 
