@@ -56,3 +56,103 @@ class Duck{
   * 나는행위를 위한 인터페이스를 만들고 이들을 실제 실현한 클래스를 만든
 * setter를 만들어 행위가 상황에 따라 변할수 있게
 
+```java
+interface FlyBehavior {
+	void fly();
+}
+
+interface QuackBehavior {
+	void quack();
+}
+
+class FlyWithWings implements FlyBehavior {
+	@Override
+	public void fly() {
+		// TODO Auto-generated method stub
+		System.out.println("fly");
+	}
+}
+
+class FlyNoWay implements FlyBehavior {
+	@Override
+	public void fly() {
+		// TODO Auto-generated method stub
+		System.out.println("cant fly");
+	}
+}
+
+class Quack implements QuackBehavior {
+	@Override
+	public void quack() {
+		// TODO Auto-generated method stub
+		System.out.println("quack quack");
+	}
+}
+
+class Squeak implements QuackBehavior {
+	@Override
+	public void quack() {
+		// TODO Auto-generated method stub
+		System.out.println("squeak squeak");
+	}
+}
+
+class MuteQuack implements QuackBehavior {
+	@Override
+	public void quack() {
+		// TODO Auto-generated method stub
+		System.out.println("mute");
+	}
+}
+
+class Duck {
+	FlyBehavior flyBehavior;
+	QuackBehavior quackBehavior;
+
+	public Duck() {
+		// TODO Auto-generated constructor stub
+		flyBehavior = new FlyNoWay();
+		quackBehavior = new MuteQuack();
+	}
+
+	public FlyBehavior getFlyBehavior() {
+		return flyBehavior;
+	}
+
+	public void setFlyBehavior(FlyBehavior flyBehavior) {
+		this.flyBehavior = flyBehavior;
+	}
+
+	public QuackBehavior getQuackBehavior() {
+		return quackBehavior;
+	}
+
+	public void setQuackBehavior(QuackBehavior quackBehavior) {
+		this.quackBehavior = quackBehavior;
+	}
+
+	public void performQuack() {
+		quackBehavior.quack();
+	}
+
+	public void performFly() {
+		flyBehavior.fly();
+	}
+}
+
+class Main {
+
+	public static void main(String[] args) {
+		Duck duck = new Duck();
+		duck.performFly();
+		duck.performQuack();
+
+		duck.setFlyBehavior(new FlyWithWings());
+		duck.setQuackBehavior(new Quack());
+
+		duck.performFly();
+		duck.performQuack();
+	}
+}
+```
+
